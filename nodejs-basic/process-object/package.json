@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "start": "npm-run-all --parallel start:env start:app",
+    "start:env": "SET NODE_ENV=development",
+    "start:app": "node index.js Wishal"
+  }
+}
